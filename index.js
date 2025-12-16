@@ -40,6 +40,7 @@ function gameStart() {
     createFood()
     drawFood()
     nextTick()
+    onclick()
 }
 // next tick to occur every 100 ms
 function nextTick() {
